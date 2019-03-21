@@ -12,6 +12,10 @@
 		F9BD805B22432206002A862D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BD805922432206002A862D /* Main.storyboard */; };
 		F9BD805D22432207002A862D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BD805C22432207002A862D /* Assets.xcassets */; };
 		F9BD806022432207002A862D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BD805E22432207002A862D /* LaunchScreen.storyboard */; };
+		F9BD806C22432D08002A862D /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = F9BD806822432D08002A862D /* B.wav */; };
+		F9BD806D22432D08002A862D /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = F9BD806922432D08002A862D /* A.wav */; };
+		F9BD806E22432D08002A862D /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = F9BD806A22432D08002A862D /* C.wav */; };
+		F9BD806F22432D08002A862D /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = F9BD806B22432D08002A862D /* D.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		F9BD805C22432207002A862D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9BD805F22432207002A862D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9BD806122432207002A862D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BD806822432D08002A862D /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = SOURCE_ROOT; };
+		F9BD806922432D08002A862D /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = SOURCE_ROOT; };
+		F9BD806A22432D08002A862D /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = SOURCE_ROOT; };
+		F9BD806B22432D08002A862D /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 		F9BD805422432206002A862D /* Soundboard Demo2 */ = {
 			isa = PBXGroup;
 			children = (
+				F9BD806722432A08002A862D /* Sounds */,
 				F9BD805522432206002A862D /* AppDelegate.swift */,
 				F9BD805722432206002A862D /* ViewController.swift */,
 				F9BD805922432206002A862D /* Main.storyboard */,
@@ -62,6 +71,17 @@
 				F9BD806122432207002A862D /* Info.plist */,
 			);
 			path = "Soundboard Demo2";
+			sourceTree = "<group>";
+		};
+		F9BD806722432A08002A862D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F9BD806922432D08002A862D /* A.wav */,
+				F9BD806822432D08002A862D /* B.wav */,
+				F9BD806A22432D08002A862D /* C.wav */,
+				F9BD806B22432D08002A862D /* D.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +142,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9BD806E22432D08002A862D /* C.wav in Resources */,
 				F9BD806022432207002A862D /* LaunchScreen.storyboard in Resources */,
+				F9BD806F22432D08002A862D /* D.wav in Resources */,
 				F9BD805D22432207002A862D /* Assets.xcassets in Resources */,
 				F9BD805B22432206002A862D /* Main.storyboard in Resources */,
+				F9BD806D22432D08002A862D /* A.wav in Resources */,
+				F9BD806C22432D08002A862D /* B.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
